@@ -20,7 +20,7 @@ const Header: React.FC = () => (
     <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold dark:text-white">
       Webentwickler und mehr
     </h1>
-    <h2 className="text-gray-500 w-7xl">
+    <h2 className="text-gray-500 lg:w-7xl">
       Leidenschaftlicher Entwickler, kreativer Problemlöser und lebenslanger
       Lerner
     </h2>

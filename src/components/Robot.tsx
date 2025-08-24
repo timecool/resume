@@ -24,7 +24,7 @@ const Robot = () => {
   return (
     <canvas
       id="canvas3d"
-      className="w-full h-[70vh] absolute left-0 top-0 z-10"
+      className="w-full h-[70vh] absolute left-0 top-0 z-10 hidden lg:block"
     />
   )
 }

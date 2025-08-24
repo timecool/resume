@@ -12,11 +12,11 @@ const Menu: React.FC<MenuProps> = ({ darkMode, setDarkMode }) => {
   }
 
   return (
-    <nav className="bg-gray-800 p-4 fixed top-0 left-0 right-0 z-50">
+    <nav className="bg-gray-800 p-4 lg:fixed top-0 left-0 right-0 z-50">
       <div className="flex items-center justify-between">
-        <span className="text-white font-bold text-lg uppercase">
+        <a href="/" className="text-white font-bold text-lg uppercase">
           Vincent Bärtsch
-        </span>
+        </a>
         <ul className="flex space-x-8">
           <li>
             <a
