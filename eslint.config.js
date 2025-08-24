@@ -14,7 +14,10 @@ export default tseslint.config([
       tseslint.configs.recommended,
       reactHooks.configs['recommended-latest'],
       reactRefresh.configs.vite,
+      'eslint:recommended',
+      'plugin:prettier/recommended',
     ],
+    plugins: ['prettier'],
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,

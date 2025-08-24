@@ -1,74 +1,74 @@
-import type { Skill } from "../interfaces/Skill";
+import type { Skill } from '../interfaces/Skill'
 
 export const skillsByCategory: Record<string, Skill[]> = {
-    Frontend: [
-        { name: 'React', level: 5 },
-        { name: 'HTML', level: 5 },
-        { name: 'CSS/SCSS', level: 5 },
-        { name: 'TypeScript', level: 5 },
-        { name: 'JavaScript', level: 5 },
-        { name: 'Tailwind CSS', level: 5 },
-        { name: 'Next.js', level: 3 },
-        { name: 'Vite', level: 2 },
-        { name: 'Svelte', level: 2 },
-        { name: 'Vue.js', level: 1 },
-        { name: 'Angular', level: 1 }
-    ],
-    Backend: [
-        { name: 'Node.js', level: 4 },
-        { name: 'REST APIs', level: 4 },
-        { name: 'Go', level: 3 },
-        { name: 'Java / Spring Boot', level: 3 },
-        { name: 'PowerShell', level: 3 },
-        { name: 'PHP', level: 3 },
-        { name: 'Express.js', level: 2 },
-        { name: 'Python', level: 1 },
-    ],
-    Testing: [
-        { name: 'Cypress', level: 4 },
-        { name: 'Selenium', level: 3 },
-        { name: 'Unit Testing', level: 2 },
-        { name: 'Karate', level: 1 },
-    ],
-    DevOps: [
-        { name: 'Bash', level: 4 },
-        { name: 'npm', level: 4 },
-        { name: 'Docker', level: 3 },
-        { name: 'GitLab Pipelines', level: 3 },
-        { name: 'Linux', level: 3 },
-        { name: 'ESLint', level: 3 },
-        { name: 'Prettier', level: 3 },
-        { name: 'Swagger', level: 3 }
-    ],
-    Datenbanken: [
-        { name: 'PostgreSQL', level: 3 },
-        { name: 'MongoDB', level: 3 },
-        { name: 'SQL', level: 3 },
-        { name: 'Redis', level: 2 }
-    ],
-    SharePoint: [
-        { name: 'SPFx', level: 5 },
-        { name: 'SharePoint SE', level: 3 },
-        { name: 'SharePoint Cloud', level: 3 },
-        { name: 'Power Platform', level: 2 }
-    ],
-    "Agile Tools": [
-        { name: 'Jira', level: 4 },
-        { name: 'Agile Methodologies', level: 4 },
-        { name: 'Scrum', level: 4 },
-        { name: 'Kanban', level: 4 },
-        { name: 'Lean', level: 4 },
-        { name: 'Confluence', level: 3 }
-    ],
-    Design: [
-        { name: 'Adobe PhotoShop', level: 4 },
-        { name: 'Adobe Premiere Pro', level: 4 },
-        { name: 'Adobe After Effects', level: 3 },
-        { name: 'Adobe Illustrator', level: 2 },
-        { name: 'Figma', level: 2 }
-    ],
-    CMS: [
-        { name: 'TYPO 3', level: 3 },
-        { name: 'WordPress', level: 2 }
-    ]
-};
+  Frontend: [
+    { name: 'React', level: 5 },
+    { name: 'HTML', level: 5 },
+    { name: 'CSS/SCSS', level: 5 },
+    { name: 'TypeScript', level: 5 },
+    { name: 'JavaScript', level: 5 },
+    { name: 'Tailwind CSS', level: 5 },
+    { name: 'Next.js', level: 3 },
+    { name: 'Vite', level: 2 },
+    { name: 'Svelte', level: 2 },
+    { name: 'Vue.js', level: 1 },
+    { name: 'Angular', level: 1 },
+  ],
+  Backend: [
+    { name: 'Node.js', level: 4 },
+    { name: 'REST APIs', level: 4 },
+    { name: 'Go', level: 3 },
+    { name: 'Java / Spring Boot', level: 3 },
+    { name: 'PowerShell', level: 3 },
+    { name: 'PHP', level: 3 },
+    { name: 'Express.js', level: 2 },
+    { name: 'Python', level: 1 },
+  ],
+  Testing: [
+    { name: 'Cypress', level: 4 },
+    { name: 'Selenium', level: 3 },
+    { name: 'Unit Testing', level: 2 },
+    { name: 'Karate', level: 1 },
+  ],
+  DevOps: [
+    { name: 'Bash', level: 4 },
+    { name: 'npm', level: 4 },
+    { name: 'Docker', level: 3 },
+    { name: 'GitLab Pipelines', level: 3 },
+    { name: 'Linux', level: 3 },
+    { name: 'ESLint', level: 3 },
+    { name: 'Prettier', level: 3 },
+    { name: 'Swagger', level: 3 },
+  ],
+  Datenbanken: [
+    { name: 'PostgreSQL', level: 3 },
+    { name: 'MongoDB', level: 3 },
+    { name: 'SQL', level: 3 },
+    { name: 'Redis', level: 2 },
+  ],
+  SharePoint: [
+    { name: 'SPFx', level: 5 },
+    { name: 'SharePoint SE', level: 3 },
+    { name: 'SharePoint Cloud', level: 3 },
+    { name: 'Power Platform', level: 2 },
+  ],
+  'Agile Tools': [
+    { name: 'Jira', level: 4 },
+    { name: 'Agile Methodologies', level: 4 },
+    { name: 'Scrum', level: 4 },
+    { name: 'Kanban', level: 4 },
+    { name: 'Lean', level: 4 },
+    { name: 'Confluence', level: 3 },
+  ],
+  Design: [
+    { name: 'Adobe PhotoShop', level: 4 },
+    { name: 'Adobe Premiere Pro', level: 4 },
+    { name: 'Adobe After Effects', level: 3 },
+    { name: 'Adobe Illustrator', level: 2 },
+    { name: 'Figma', level: 2 },
+  ],
+  CMS: [
+    { name: 'TYPO 3', level: 3 },
+    { name: 'WordPress', level: 2 },
+  ],
+}
